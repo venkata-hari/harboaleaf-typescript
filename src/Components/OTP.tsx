@@ -64,13 +64,13 @@ function ForgotPassword({navigate}:IProps) {
                     <input
                       {...props}
                       style={{
-                        width: '50px', // Set desired width
-                        height: '50px', // Set desired height
-                        fontSize: '20px', // Set font size for better visibility
-                        textAlign: 'center', // Center text
-                        border: '1px solid #ccc', // Border style
-                        borderRadius: '5px', // Rounded corners
-                        margin: '0 5px', // Space between inputs
+                        width: '50px',
+                        height: '50px',
+                        fontSize: '20px',
+                        textAlign: 'center',
+                        border: '1px solid #ccc',
+                        borderRadius: '5px',
+                        margin: '0 5px',
                       }}
                     />
                   )}

@@ -6,7 +6,7 @@ import {IProps, withRouter} from '../Utils/withRouter';
 import { Forms } from '../Utils/Types';
 function ForgotPassword({navigate}:IProps) {
   const [otp, setOtp] = useState('');
-  const [timer, setTimer] = useState(10); // Timer in seconds
+  const [timer, setTimer] = useState(10);
   const [canResend, setCanResend] = useState(false);
   useEffect(() => {
     if (timer > 0) {

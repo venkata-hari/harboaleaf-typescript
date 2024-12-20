@@ -1,0 +1,1 @@
+export type Forms=React.MouseEvent<HTMLButtonElement>
